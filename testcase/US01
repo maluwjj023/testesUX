@@ -1,2 +1,14 @@
 Como usuário, quero fazer cadastro no cite do Mercado Livre, para vender produtos.
+---
+Objetivo: Verificar se o usuário consegue realizar o cadastro no Mercado Livre para vender produtos.
 
+Pré-condição: Usuário não possui cadastro no Mercado Livre.
+
+Passos:
+
+Acessar o site do Mercado Livre.
+Selecionar a opção de criar uma conta.
+Preencher os dados solicitados.
+Concluir o cadastro.
+
+Resultado esperado: O cadastro deve ser realizado com sucesso e o usuário deve conseguir acessar sua conta para iniciar o processo de venda de produtos.
