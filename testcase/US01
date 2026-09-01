@@ -1,15 +1,28 @@
 Como usuário, quero fazer cadastro no cite do Mercado Livre, para vender produtos.
 --->
-Objetivo: Verificar se o usuário consegue realizar o cadastro de forma intuitiva para começar a vender produtos.
 
-Pré-condição: Usuário não possui cadastro.
+Objetivo do teste: Verificar se o usuário consegue concluir o cadastro na plataforma de forma clara, eficiente e sem erros, para iniciar a venda de produtos.
+
+Pré-condições:
+
+Usuário não possui conta cadastrada no Mercado Livre
+Acesso à internet e navegador atualizado
+Página inicial do Mercado Livre carregada
 
 Passos:
 
-Acessar o site do Mercado Livre.
-Localizar a opção de cadastro.
-Identificar facilmente as informações necessárias para realizar o cadastro.
-Preencher os dados solicitados.
-Concluir o cadastro.
+Acessar o site do Mercado Livre
+Localizar e clicar na opção "Criar conta" (ou equivalente)
+Preencher os dados solicitados (nome, e-mail/telefone, senha)
+Confirmar o cadastro (validação por código, e-mail, etc.)
+Verificar acesso à conta recém-criada
 
-Resultado esperado: O usuário deve conseguir compreender o processo, localizar as opções necessárias e concluir o cadastro sem dificuldades ou dúvidas.
+Resultado esperado:
+O usuário conclui o cadastro em poucos passos, com instruções claras em cada etapa, mensagens de erro compreensíveis (caso ocorram) e confirmação visível de que a conta foi criada com sucesso, podendo prosseguir para configurar a venda de produtos.
+
+Critérios de aceitação:
+
+Tempo de conclusão do cadastro dentro de um limite razoável (ex.: até 3 minutos)
+Ausência de ambiguidade nos rótulos dos campos
+Feedback claro em caso de erro de preenchimento
+Mensagem de sucesso ao final do processo
