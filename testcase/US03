@@ -1,1 +1,27 @@
 Como usuário, quero acessar o site do jornal online, para ver as noticias do dia.
+--->
+
+Objetivo do teste: Verificar se o usuário consegue acessar o site e visualizar as notícias do dia de forma rápida, clara e sem obstáculos.
+
+Pré-condições:
+
+Acesso à internet
+Endereço (URL) do site do jornal
+
+Passos:
+
+Acessar o site do jornal online
+Aguardar o carregamento da página inicial
+Localizar a seção/destaque de notícias do dia (manchetes, capa)
+Selecionar uma notícia para verificar se o conteúdo é exibido corretamente
+Verificar se há indicação clara de data/hora da publicação
+
+Resultado esperado:
+O usuário visualiza as notícias do dia já na página inicial, carregamento rápido e informações de data/hora visíveis, permitindo identificar o conteúdo mais recente.
+
+Critérios de aceitação:
+
+Tempo de carregamento da página dentro de um limite aceitável (ex.: até 3 segundos)
+Notícias do dia visíveis sem necessidade de rolagem excessiva ou buscas adicionais
+Data/hora de publicação visível nas matérias
+Navegação intuitiva até o conteúdo completo da notícia
