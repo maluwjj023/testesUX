@@ -1,4 +1,28 @@
 Como usuário, quero cadastrar o meu CEP ao site, para calcular o frete do produto.
+--->
 
+Objetivo do teste: Verificar se o usuário consegue informar o CEP e obter o cálculo do frete de forma rápida, clara e sem erros.
 
+Pré-condições:
 
+Usuário está na página de um produto (ou carrinho de compras)
+Acesso à internet
+CEP válido disponível para teste
+
+Passos:
+
+Localizar o campo destinado à consulta/cadastro de CEP na página do produto
+Inserir o CEP no campo indicado
+Confirmar/calcular (clicar em "Calcular" ou equivalente)
+Verificar se o sistema retorna o valor e prazo de frete
+Testar também a inserção de um CEP inválido, para verificar o tratamento de erro
+
+Resultado esperado:
+O sistema localiza rapidamente o campo de CEP, calcula o frete corretamente e exibe valor e prazo de entrega de forma clara. Em caso de CEP inválido, uma mensagem de erro compreensível é exibida, orientando a correção.
+
+Critérios de aceitação:
+
+Campo de CEP visível e de fácil localização na página
+Tempo de resposta do cálculo dentro de um limite aceitável (ex.: até 2 segundos)
+Mensagem de erro clara para CEP inválido ou incompleto
+Valor e prazo de frete exibidos de forma destacada e compreensível
