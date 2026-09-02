@@ -1,1 +1,28 @@
 Como visitante sem cadastro, quero entrar em contato com o suporte ao cliente enviando apenas o meu email e senha, para poder tirar uma dúvida ou fazer reclamação.
+--->
+
+Objetivo do teste: Verificar se um visitante sem conta cadastrada consegue enviar uma mensagem de contato ao suporte de forma simples, sem exigir cadastro completo.
+
+Pré-condições:
+
+Acesso à internet
+Usuário não possui conta cadastrada e não está autenticado no site
+Página de "Fale Conosco"/"Suporte" disponível publicamente
+
+Passos:
+
+Acessar a página de suporte/contato do site
+Verificar se é possível enviar mensagem sem necessidade de login
+Preencher os campos solicitados (e-mail e mensagem/dúvida)
+Enviar a solicitação
+Verificar se o sistema exibe confirmação de recebimento
+
+Resultado esperado:
+O sistema permite o envio da mensagem sem exigir cadastro completo, solicitando apenas os dados mínimos necessários (e-mail e mensagem), e exibe confirmação clara de que a solicitação foi recebida, possivelmente informando prazo de resposta.
+
+Critérios de aceitação:
+
+Formulário de contato acessível sem necessidade de login/cadastro
+Campos solicitados claros e mínimos (evitando fricção desnecessária)
+Mensagem de confirmação exibida após o envio
+Mensagem de erro compreensível caso algum campo obrigatório não seja preenchido
