@@ -1,1 +1,27 @@
 Como administrador, quero dar acesso a usuários ao sistema de vendas do site, para apenas usuários selecionados terem permissão. 
+--->
+
+Objetivo do teste: Verificar se o administrador consegue conceder acesso ao sistema de vendas a usuários específicos de forma clara, precisa e sem risco de conceder permissões indevidas.
+
+Pré-condições:
+
+Administrador autenticado no painel de gestão com permissões adequadas
+Existência de usuários cadastrados sem acesso ao sistema de vendas
+
+Passos:
+
+Acessar o painel administrativo
+Localizar a área de gerenciamento de permissões/acessos
+Buscar e selecionar o(s) usuário(s) desejado(s)
+Conceder a permissão de acesso ao sistema de vendas
+Confirmar a alteração e verificar se o acesso foi aplicado corretamente
+
+Resultado esperado:
+O sistema permite localizar e selecionar facilmente o(s) usuário(s) desejado(s), exibe claramente o status atual de permissão (concedida/não concedida) e, após a confirmação, aplica o acesso com mensagem de sucesso, sem afetar permissões de outros usuários.
+
+Critérios de aceitação:
+
+Busca/seleção de usuários rápida e precisa
+Indicação visual clara do status de permissão antes e depois da alteração
+Confirmação solicitada antes de aplicar a mudança (prevenção de erro)
+Mensagem de sucesso/erro visível ao final da operação
