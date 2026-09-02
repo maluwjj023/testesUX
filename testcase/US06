@@ -1,1 +1,26 @@
 Como administrador, quero deletar usuários inativos a mais de 12 meses, para reduzir custos. 
+--->
+Objetivo do teste: Verificar se o administrador consegue identificar, selecionar e excluir usuários inativos há mais de 12 meses de forma clara, segura e sem risco de exclusões indevidas.
+
+Pré-condições:
+
+Administrador autenticado no painel de gestão com permissões adequadas
+Existência de usuários cadastrados com diferentes tempos de inatividade (alguns acima e outros abaixo de 12 meses)
+
+Passos:
+
+Acessar o painel administrativo
+Localizar a área de gerenciamento de usuários
+Aplicar filtro/ordenação por tempo de inatividade (≥ 12 meses)
+Selecionar o(s) usuário(s) inativo(s) listado(s)
+Confirmar a ação de exclusão
+
+Resultado esperado:
+O sistema permite filtrar corretamente os usuários inativos há 12 meses ou mais, exibe uma tela de confirmação antes da exclusão definitiva (evitando ações irreversíveis acidentais) e, após confirmação, remove os usuários selecionados com mensagem de sucesso.
+
+Critérios de aceitação:
+
+Filtro de inatividade preciso, exibindo apenas usuários que atendem ao critério de 12+ meses
+Confirmação explícita solicitada antes da exclusão (prevenção de erro irreversível)
+Mensagem de sucesso/erro clara ao final da operação
+Possibilidade de cancelar a ação antes da confirmação final
