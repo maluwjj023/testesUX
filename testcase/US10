@@ -1,1 +1,26 @@
 Como usuário, quero poder adicionar uma compra ao meu carrinho no site, para poder visualizar o valor total dos produtos adicionados.  
+--->
+Objetivo do teste: Verificar se o usuário consegue adicionar produtos ao carrinho e visualizar o valor total de forma clara, precisa e imediata.
+
+Pré-condições:
+
+Acesso à internet
+Usuário está na página de um produto disponível para compra
+
+Passos:
+
+Acessar a página de um produto
+Clicar no botão "Adicionar ao carrinho" (ou equivalente)
+Verificar se o sistema confirma a adição do item (ícone/contador do carrinho atualizado)
+Acessar o carrinho de compras
+Verificar se o valor total dos produtos adicionados é exibido corretamente
+
+Resultado esperado:
+O sistema adiciona o produto ao carrinho imediatamente, com confirmação visual clara (ex.: atualização do ícone/contador do carrinho), e ao acessar o carrinho, o valor total é calculado e exibido corretamente, refletindo a soma dos produtos adicionados.
+
+Critérios de aceitação:
+
+Confirmação visual imediata após adicionar o produto ao carrinho
+Valor total exibido de forma clara e destacada no carrinho
+Cálculo correto do valor total (soma precisa dos itens adicionados)
+Fácil acesso ao carrinho a partir de qualquer página do site
