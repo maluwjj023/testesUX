@@ -1,1 +1,26 @@
 Como usuário, quero entrar no site da Adidas e filtrar os sapatos por tamanho, para visualizar apenas o que me interessa. 
+--->
+Objetivo do teste: Verificar se o usuário consegue localizar e aplicar o filtro de tamanho na listagem de sapatos, visualizando apenas os produtos disponíveis no tamanho selecionado.
+
+Pré-condições:
+
+Acesso à internet
+Usuário está na página de listagem de sapatos (categoria "Calçados" ou "Sapatos")
+
+Passos:
+
+Acessar o site da Adidas
+Navegar até a categoria de sapatos/calçados
+Localizar a opção de filtro por tamanho
+Selecionar o tamanho desejado
+Verificar se a listagem é atualizada exibindo apenas os produtos no tamanho escolhido
+
+Resultado esperado:
+O usuário localiza facilmente o filtro de tamanho, e ao selecioná-lo, a listagem de produtos é atualizada automaticamente (sem necessidade de recarregar a página novamente), exibindo somente os sapatos disponíveis no tamanho escolhido.
+
+Critérios de aceitação:
+
+Filtro de tamanho visível e de fácil localização na página de listagem
+Atualização da listagem em tempo aceitável (ex.: até 2 segundos) após seleção
+Indicação clara de quantos/quais filtros estão ativos
+Possibilidade de remover o filtro facilmente e retornar à listagem completa
