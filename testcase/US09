@@ -1,1 +1,28 @@
 Como usuário, quero poder cadastrar o meu email no site, para receber ofertas de descontos.
+--->
+Estória do usuário: Como usuário, quero poder cadastrar o meu e-mail no site, para receber ofertas de descontos.
+
+Objetivo do teste: Verificar se o usuário consegue cadastrar seu e-mail para receber ofertas de forma simples e com confirmação clara do cadastro.
+
+Pré-condições:
+
+Acesso à internet
+Usuário está na página do site onde o campo de cadastro de e-mail está disponível (ex.: rodapé, pop-up..)
+
+Passos:
+
+Localizar o campo de cadastro de e-mail para ofertas
+Inserir um e-mail válido no campo indicado
+Confirmar o cadastro (clicar em "Cadastrar"/"Inscrever-se" ou equivalente)
+Verificar se o sistema exibe mensagem de sucesso
+Testar também a inserção de um e-mail inválido, para verificar o tratamento de erro
+
+Resultado esperado:
+O sistema localiza facilmente o campo de cadastro, aceita o e-mail válido exibindo mensagem de confirmação clara (podendo incluir aviso de verificação por e-mail, se aplicável) e, em caso de e-mail inválido, apresenta mensagem de erro compreensível orientando a correção.
+
+Critérios de aceitação:
+
+Campo de cadastro de e-mail visível e de fácil localização
+Mensagem de sucesso clara após o cadastro
+Mensagem de erro compreensível para e-mail inválido ou mal formatado
+Ausência de etapas desnecessárias para concluir o cadastro
