@@ -1,1 +1,26 @@
 Como Administrdor, quero disparar mensagens para todos os usuários e funcionários da empresa, para manter a comunicação entre todos.
+--->
+Objetivo do teste: Verificar se o administrador consegue criar e enviar uma mensagem em massa para usuários e funcionários de forma clara, confiável e sem risco de envios indevidos.
+
+Pré-condições:
+
+Administrador autenticado no painel de gestão com permissões adequadas
+Existência de listas/grupos de destinatários (usuários e funcionários) cadastrados no sistema
+
+Passos:
+
+Acessar o painel administrativo
+Localizar a funcionalidade de envio de mensagens/comunicados
+Selecionar o(s) grupo(s) de destinatários (usuários, funcionários ou ambos)
+organizar o conteúdo da mensagem
+Enviar a mensagem e verificar confirmação de envio
+
+Resultado esperado:
+O sistema permite selecionar claramente os destinatários (evitando ambiguidade entre "usuários" e "funcionários"), exibe uma prévia ou confirmação antes do disparo definitivo e, após o envio, apresenta mensagem de sucesso indicando que a comunicação foi realizada.
+
+Critérios de aceitação:
+
+Seleção de destinatários clara e sem ambiguidade
+Confirmação solicitada antes do envio em massa (prevenção de erro irreversível)
+Feedback visível de sucesso ou falha no envio
+Possibilidade de revisar/editar a mensagem antes de confirmar o disparo
